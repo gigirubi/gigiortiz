@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 300vh;
+}
+    
+#triangle {
+    position: absolute;
+    width: 1074px;
+    height: 1130px;
+    left: 225px;
+    top: 210px;
+    
+}
+#dotline {
+    position: absolute;
+    width: 650px;
+    height: 604px;
+    left: 135px;
+    top: 57px;
+}
+.bulb {
+    position: absolute;
+    width: 395px;
+    height: 461px;
+    right: 180px;
+    top: 10px;
+    z-index: 10;
+}
+.bulbs{
+    position: absolute;
+    width: 576 px;
+    height: 576px;
+    right: 130px;
+    top: 620px;
+
+}
+/* name */
+#home h1 {
+    position: absolute;
+    width: 389px;
+    height: 121px;
+    left: 135px;
+    top: 180px;
+    font-family: Cormorant;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 121px;
+    letter-spacing: 0.06em;
+    color: #302C2C;
+}
+/* uvp */
+ #home h2 {
+    position: absolute;
+    width: 1014px;
+    height: 59px;
+    left: 135px;
+    top: 310px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color: #ED2939;
+}
+/* yo! */
+#home h3{
+    position: absolute;
+    width: 262px;
+    height: 230px;
+    right: 100px;
+    top: 530px;
+    font-family: Cormorant;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 190px;
+    line-height: 230px;
+    color: #302C2C;
+
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    overflow: hidden;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+
+#about h2 {
+    width: 680px;
+    height: 288px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.12em;
+    color: #302C2C;
+}
+
+
+.face {
+    position: absolute;
+    width: 419px;
+    height: 419px;
+    left: 20px;
+    top: 998px;
+}
+.medium {
+    color: #F66974;
+    text-decoration: underline;
+}
+.dribble {
+    color: #F66974;
+    text-decoration: underline;
+}
+.dribble:hover {
+    color: lightskyblue;
+}
+.medium:hover {
+    color: lightskyblue;
+}
+
+
+/* Screen size for each section */
+.screen{
+    height: 100vh;
+    max-height: 100vh;
+    width:100vw; 
+    max-width:100vw;
+}
+/* Cards styling */
+.card-text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* letter-spacing: 0.12em; */
+    color: #302C2C;
+}
+.continue {
+    
+    font-family: Cormorant;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.12em;
+    color: #F66974;
+    float: right;
+    
+}
+.card-title {
+    margin-top: -55px; 
+    font-family: Cormorant;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+}
+.card {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    
+}
+
+.continue:hover {
+color: lightskyblue;
+}
+.pink2 {
+    position: absolute;
+    width: 350px;
+    height: 22px;
+    left: 135px;
+    top: 1540px;
+}
+
+.mockups {
+    background-color: #ED2939;
+    margin: .3%;
+    width: 270px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;  
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25); 
+}
+
+.mockups:hover{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+.image-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 80%;
+    height: 80%;
+    max-width: 100%;
+   
+    
+}
+.title h1 {
+    position: absolute;
+    font-family: Cormorant;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+    letter-spacing: 0.07em;
+    color: #302C2C;
+    left: 55px;
+
+    
+}
+.pinky {
+    position: absolute;
+    width: 204px;
+    height: 22px;
+    background: rgba(237, 41, 57, 0.5);
+    left: 55px;
+    top: 40px;
+    z-index: -10;
+}
+.title {
+    position: relative;
+    height: 100px;  
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+    
+    
+    
